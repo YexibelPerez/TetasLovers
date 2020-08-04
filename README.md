@@ -4,9 +4,8 @@ Tiene como finalidad mantener la organización del emprendimiento de Tetas Lover
 
 ## SERÁ DESARROLLADO CON:
 
--HTML5
--CSS3
--PHP
--JAVASCRIPT
--MYSQLI
-
+* HTML5
+* CSS3
+* PHP
+* JAVASCRIPT
+* MYSQLI
