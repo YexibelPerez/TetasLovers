@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(imagen.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contenedor{
+	width: 70%;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.formulario{
+	background: rgba(255,255,255,0.8);
+	margin-top: 100px;
+	padding: 3px;
+	position: relative;
+}
+
+.login{
+	top: 70px;
+}
+
+.register{
+	top: 25px;
+}
+
+h1{
+	padding-top: 10px;
+	color: #1a2537;
+	font-size: 25px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 152%;
+}
+
+input[type=email], input[type=password]{
+	background: rgba(255,255,255,0.2);
+	font-size:20px;
+	width: 84.7%;
+	padding: 10px;
+	border:none;
+}
+
+input[type=text]{
+	background: rgba(255,255,255,0.2);
+	font-size:20px;
+	width: 41.7%;
+	padding: 10px;
+	border:none;
+}
+
+.input-contenedor{
+	margin-bottom: 10px;
+	border: 1px solid #aaa;
+	width: 152%;
+}
+
+.icon{
+	min-width: 50px;
+	text-align: center;
+	color: gray;
+}
+
+.button{
+	border:none;
+	width: 152%;
+	color: white;
+	background: #1a2537;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 1px;
+	font-size: 22px;
+}
+
+.button:hover{
+	background:cadetblue;
+}
+
+p{
+	padding-top: 13px;
+	color: #332F2C;
+	text-align: center;
+	width: 152%;
+}
+
+p span{
+	color: #008080;
+	padding-top: 70px;
+}
+
+.link{
+	text-decoration: none;
+	color: #1a2537;
+	font-weight: 600;
+}
+
+.link:hover{
+	color: cadetblue;
+}
+
+@media(min-width:500px){
+	.formulario{
+		margin: auto;
+		width: 400px;
+		margin-top: 20px; 
+		border-radius: 2%;
+		padding-top: 10px;
+		display: flex;
+	}
+}
+
+.ok {
+	text-align: center;
+	width: 50%;
+	padding: 5px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 50%;
+	padding: 5px;
+	background-color: #a22;
+	color: #fff
+}
